@@ -1,0 +1,11 @@
+**Customer Verification should be done by accessing the database and changing its active status**
+
+**Customer Login Details**
+
+Email   : test@gmail.com
+Password: test
+
+**Admin Login Details**
+
+Email   : admin@mail.com
+Password: Password@123

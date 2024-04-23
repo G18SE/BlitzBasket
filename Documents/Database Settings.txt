@@ -1,0 +1,13 @@
+If faced below error in phpmyadmin : 
+
+MySQL: Error Code: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB
+
+Then follow below Steps : 
+
+Log in to phpMyAdmin.
+Select the "Variables" tab at the top of the page.
+In the "Filter" box, type innodb_strict_mode to quickly locate the setting.
+Find the innodb_strict_mode variable in the list of variables.
+Click on the "Edit" button (the pencil icon) next to the innodb_strict_mode variable.
+In the "Value" field, change the value to 0.
+Click the "Go" or "Save" button to apply the changes.
